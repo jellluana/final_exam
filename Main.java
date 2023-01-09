@@ -4,10 +4,10 @@ public class Main
 	{
 		Customer customer;
 		RegularCustomer regCustomer = new
-		RegularCustomer("Jane", 1000);
+		RegularCustomer("Mack", 1000);
 		
 		SeniorCustomer senCustomer = new
-		SeniorCustomer ("Faith", 2000);
+		SeniorCustomer ("Jhone", 2000);
 		
 		customer = regCustomer;
 		System.out.println(regCustomer.name + " is a regular customer who has a total bill of " + regCustomer.calculateBill());
